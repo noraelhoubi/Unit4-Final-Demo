@@ -1,0 +1,48 @@
+# Introduce factors
+monthly_income = 0
+monthly_expenses = 0
+savings_goals = {}
+# Input information
+monthly_income = get_input("Enter your month to month pay: ")
+monthly_expenses = get_input("Enter your month to month expenses: ")
+savings_goals = get_savings_goals()
+# Ascertain the spending plan
+monthly_budget = calculate_budget(monthly_income, monthly_expenses)
+# Arrange costs
+categorized_expenses = categorize_expenses()
+# Show financial plan
+display_budget(monthly_budget)
+# Show investment funds progress
+savings_progress = calculate_savings_progress(savings_goals)
+display_savings_progress(savings_progress)
+# Give thoughts
+if monthly_budget < 0:
+   offer_suggestions(categorized_expenses)
+'''
+'''python
+# Individual accounting The board Program
+# Instate factors
+monthly_income = 0
+monthly_expenses = 0
+savings_goals = {}
+# Input information
+monthly_income = float(input("Enter your month to month pay: "))
+monthly_expenses = float(input("Enter your month to month expenses: "))
+savings_goals = get_savings_goals() # A capability to info and store investment funds objectives.
+# Work out the spending plan
+monthly_budget = calculate_budget(monthly_income, monthly_expenses)
+# Classify costs
+categorized_expenses = categorize_expenses() # A capability to order expenses.
+# Show spending plan
+display_budget(monthly_budget) # A capability to show spending plan data.
+# Show investment funds progress
+savings_progress = calculate_savings_progress(savings_goals)
+display_savings_progress(savings_progress) # Capabilities for ascertaining and showing reserve funds progress.
+# Give ideas
+in the event that monthly_budget < 0:
+   offer_suggestions(categorized_expenses) # Capability to give reserve funds thoughts.
+# End of program
+'''
+
+
+
